@@ -77,7 +77,7 @@ router.delete('/developers/:developerId', (req, res) => {
     const developerInfo = developers[req.params.developerId];
     if (developerInfo) {
         delete developers[req.params.developerId];
-        res.send('Developer Deleted');
+        res.status(204).send('Developer Deleted');
     } else {
         res.status(404).send("Developer doesn't exist in our system");
     }
