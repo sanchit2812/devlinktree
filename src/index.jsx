@@ -1,4 +1,3 @@
-/* eslint-disable react/jsx-filename-extension */
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
@@ -11,8 +10,8 @@ function App() {
             {/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}
             <Switch>
-                <Route exact path="/developers/:developerId" component={DeveloperProfile} />
                 <Route exact path="/" component={HomePage} />
+                <Route exact path="/developers/:developerId" component={DeveloperProfile} />
             </Switch>
         </Router>
     );
