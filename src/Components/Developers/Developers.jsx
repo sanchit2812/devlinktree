@@ -28,7 +28,7 @@ class Developers extends React.Component {
         const res = [];
         // eslint-disable-next-line no-restricted-syntax
         for (const developer of this.state.developers) {
-            if (developer.id.toLowerCase().includes(searchInput.toLowerCase())) {
+            if (developer.githubId.toLowerCase().includes(searchInput.toLowerCase())) {
                 res.push(developer);
             }
             this.setState({ searchResult: res });
