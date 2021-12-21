@@ -1,6 +1,6 @@
 # Developer Profiles Platform:
 
-## Application link: <a target="_blank" href='http://developer-profiles.herokuapp.com/'>developer-profiles.herokuapp.com</a>
+## Application link: <a target="_blank" href='https://devlinktree.herokuapp.com/'>Demo</a>
 
 ## This web-app has the following features:-
 
